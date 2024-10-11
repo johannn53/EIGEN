@@ -16,3 +16,6 @@ To run the server:
 
 To store/seed data to database:
 `npm run seed`
+
+# NOTE:
+This is my first time using and learning typescript. If the project can't run because some files are not in my repo, please kindly let me know
