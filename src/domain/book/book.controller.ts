@@ -12,7 +12,7 @@ import BookModel from './book.entity';
  * 
  * @returns {Promise<any>} A promise that resolves to the response object, containing the status and book data or an error message.
  * 
- * @throws {500} If there is an error fetching the books, a 500 status code with an error message is returned.
+ * @throws {500} If there is an error fetching the books, a 500 status code with an error message is returned. 
  */
 export const getAllBooks = async (req: Request, res: Response): Promise<any> => {
   try {
